@@ -8,11 +8,11 @@ A simple spider/Douban.com sources/Find intros and albums of common celebrities 
 
 
 
-- get_doubanuser.py: an original version, it may have many redundant codes, can only work if you input an acurate personal ID.
+- 『get_doubanuser.py』: an original version, it may have many redundant codes, can only work if you input an acurate personal ID.
 
-- get_doubancelebrity.py: trying to make it better.
+- 『get_doubancelebrity.py』: trying to make it better.
 
-- get_doubancelebrity -V1.2版.exe: you are welcome to download and test it on your computer, do not foget to issue if you find bugs. XieXie!
+- 『get_doubancelebrity -V1.2版.exe』: you are welcome to download and test it on your computer, do not foget to issue if you find bugs. XieXie!
 
 
 
