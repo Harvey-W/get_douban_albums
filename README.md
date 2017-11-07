@@ -6,7 +6,7 @@ A simple spider/Douban.com sources/Find intros and albums of common celebrities 
 >- THIS IS MY FIRST PYTHON PROJECT WITH ORIGINAL THOUGHTS.
 > -  There will be an important function to fulfill my <Data Analyst> style, also bugs to fix and revise codes to be pythonic.
 
----
+
 
 - get_doubanuser.py: an original version, it may have many redundant codes, can only work if you input an acurate personal ID.
 
