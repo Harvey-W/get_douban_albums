@@ -30,7 +30,7 @@ import time
 
 def url_open(url):
     req = urllib.request.Request(url)
-    req.add_header('User-Agent','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36')
+    req.add_header('User-Agent','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36')
     try:
         resp = urllib.request.urlopen(req)
     except urllib.error.HTTPError as e:
@@ -73,7 +73,7 @@ def get_info(main_url):
         time.sleep(0.5)
         print('.'*i)
     for e in info:
-        content = e.xpath('string(.)').replace('\n','').replace(' ','')
+        content = e.xpath('string(.)').strip()#replace('\n','').replace(' ','')
         print(content)
     for dot in dots[::-1]:
         time.sleep(0.5)
@@ -110,10 +110,10 @@ def download_imgs():
     print ('=========================')
     search_url = 'https://movie.douban.com/celebrities/search?search_text='\
                + urllib.parse.quote(doubanNAME)
-
     try:
         main_url = etree.HTML(url_open(search_url)).\
                    xpath('//h3/a/@href')[0]
+
     except IndexError as e:
         print('呃..看来是没收录TA！')
         print ('=========================\n')
