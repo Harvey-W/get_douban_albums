@@ -14,5 +14,11 @@
 - 『get_doubancelebrity -V1.2版.exe』: you are welcome to download and test it on your computer, do not foget to issue if you find bugs. XieXie!
 
 # 自动爬取并下载豆瓣相册的照片
-一个简单的爬虫脚本，通过姓名检索，可爬取豆瓣用户或者明星的照片，并下载至本地同目录Douban文件夹下。内置使用说明。
+- 一个简单的爬虫脚本
+- 通过姓名检索，可爬取豆瓣用户(get_doubanuser.py)或者明星(get_doubancelebrity.py)的照片，并下载至本地同目录Douban文件夹下
+- 内置使用说明。
 （写于2017年的旧作，目前可能存在bug）
+
+![](1.png) 
+
+![](2.png)
