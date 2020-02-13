@@ -1,5 +1,4 @@
 # get_doubancelebrity
-A simple spider/Douban.com sources/Find intros and albums of common celebrities all of the world
 
 > - Two gogerious ladies inspired me to make this tiny project.
 > - I made two part of them: one is for personal Douban users' requests, initiated as the basic version. The other one is to seek general celebries, such as Aragaki Yui that I have just mentioned her. (1/2) :)
@@ -14,7 +13,6 @@ A simple spider/Douban.com sources/Find intros and albums of common celebrities 
 
 - 『get_doubancelebrity -V1.2版.exe』: you are welcome to download and test it on your computer, do not foget to issue if you find bugs. XieXie!
 
-
-
-
- ### coming soon
+# 自动爬取并下载豆瓣相册的照片
+一个简单的爬虫脚本，通过姓名检索，可爬取豆瓣用户或者明星的照片，并下载至本地同目录Douban文件夹下。内置使用说明。
+（写于2017年的旧作，目前可能存在bug）
