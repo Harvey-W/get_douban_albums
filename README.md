@@ -1,4 +1,4 @@
-# get_doubancelebrity
+# get_douban_albums
 
 > - Two gogerious ladies inspired me to make this tiny project.
 > - I made two part of them: one is for personal Douban users' requests, initiated as the basic version. The other one is to seek general celebries, such as Aragaki Yui that I have just mentioned her. (1/2) :)
